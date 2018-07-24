@@ -1,0 +1,166 @@
+
+@import url("components/navbar.css");
+@import url("components/sidebar.css");
+
+
+body {
+  background: yellow;
+}
+
+*{margin:0;padding:0;}
+section{
+  height:79vh;
+  width:100vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:yellow;
+ /* padding-top:55px;*/
+}
+
+p {
+  font-family: Anonymous Pro;
+  letter-spacing:10px;
+  font-size:8vw;
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+  text-decoration:none;
+/*  display:block;*/
+/*  transition:all .5s ease-in-out;
+  animation:wubble 8s ease-in-out infinite alternate-reverse;*/
+  justify-content:center;
+  padding-top: 40px;
+
+
+}
+
+
+
+section a {
+  /*font-family:Helvetica;
+  text-transform:uppercase;*/
+  font-family: Anonymous Pro;
+  letter-spacing:10px;
+  font-size:11vw;
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+  text-decoration:none;
+  display:block;
+  transition:all .5s ease-in-out;
+  animation:wubble 8s ease-in-out infinite alternate-reverse;
+}
+/*div{
+  ;
+}*/
+a:hover{
+  color: red;
+}
+@keyframes wubble{
+  from{
+    transform:rotate(-5deg) scaleY(1.2) scaleX(1);
+  }
+  to{
+    transform:rotate(5deg) scaleY(1) scaleX(1.2);
+  }
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.info {
+  width: 50%;
+  text-align: center;
+  background:yellow;
+  font-family: Raleway;
+  font-size: 20px;
+  padding-top: 50px;
+  position: fixed;
+
+
+}
+
+
+
+.description {
+  border: 1px red solid;
+}
+
+.left {
+  left: 0;
+
+}
+
+.right {
+  right:0;
+}
+
+
+ul {
+  list-style-type: none;
+  display: center;
+
+}
+
+li {
+  display: inline;
+  float: center;
+  text-decoration:none;
+}
+
+
+
+.workbar {
+  justify-content: center;
+  font-family: Anonymous Pro;
+  text-decoration:none;
+  display: flex;
+
+
+}
+
+/*
+.container {
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  float: center;
+/*  width: 50%;*/
+
+h4{
+  background-color: transparent;
+  color: black;
+
+
+
+
+}
+
+
+.workbar a {
+  font-family: Anonymous Pro;
+  letter-spacing:10px;
+  font-size:11vw;
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+  text-decoration:none;
+  display: inline-block;
+
+}
+
+.workbar a:hover{
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+

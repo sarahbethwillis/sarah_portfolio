@@ -1,0 +1,62 @@
+/*.sidebar {
+  color: black
+  font: "Raleway";
+  position: relative;
+  padding-top: 50px;
+  text-decoration: none;
+
+}
+*/
+
+
+
+.sidebar {
+    font-family: Raleway;
+    font-size: 35px;
+    letter-spacing: 2vw;
+    text-decoration: none;
+
+
+}
+
+.sidebar-right{
+    transform: translate(50%, 0) rotate(90deg);
+    line-height: 1.4em;
+    position: absolute;
+    margin: 0;
+    right: 0.8em;
+    z-index: 901;
+    top: 320px;
+    text-decoration: none;
+    color: black;
+
+  }
+
+
+.sidebar-left {
+    transform: translate(50%, 0) rotate(-90deg);
+    line-height: 1.4em;
+    position: absolute;
+    margin: 0;
+    left: -9em;
+    z-index: 901;
+    top: 320px;
+    text-decoration: none;
+    color: black
+
+}
+
+#work {
+left: -5em !important;
+
+
+}
+
+
+
+
+
+
+
+
+
