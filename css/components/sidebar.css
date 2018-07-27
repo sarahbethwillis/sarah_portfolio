@@ -11,15 +11,64 @@
 
 
 .sidebar {
-    font-family: Raleway;
-    font-size: 35px;
-    letter-spacing: 2vw;
-    text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+    height:100%;
+    width: 100vh;
+    position: fixed;
+    z-index:100;
+    right: 0;
+    transform: translateX(100%) rotate(90deg);
+      transform-origin:left top;
+
+    font-family: Work Sans;
+    font-size: 30px;
+    letter-spacing: 1vw;
+
+/*transform: translate(50%, 1) rotate(90deg);
+right: 0.8em;*/
+
+/*      top: 252px;*/
+
+
 
 
 }
 
-.sidebar-right{
+
+
+.sidebar a {
+/*  height: 10px;*/
+
+  z-index: 901;
+
+    color: red;
+  text-decoration: none !important;
+ /* position: relative;*/
+/*  color: black;
+  margin: 0;*/
+/*  transform: rotate(90deg);*/
+
+
+
+
+}
+
+.sidebar a:hover{
+  color: black;
+  font-style: italic;
+
+
+}
+
+
+
+
+
+/*.sidebar-right{
     transform: translate(50%, 0) rotate(90deg);
     line-height: 1.4em;
     position: absolute;
@@ -38,11 +87,11 @@
     line-height: 1.4em;
     position: absolute;
     margin: 0;
-    left: -9em;
+    left: 0,5em;
     z-index: 901;
     top: 320px;
     text-decoration: none;
-    color: black
+    color: black;
 
 }
 
@@ -51,8 +100,8 @@ left: -5em !important;
 
 
 }
-
-
+*/
+*/
 
 
 

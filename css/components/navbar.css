@@ -59,9 +59,10 @@ h2 {
   /*padding-bottom: 80px*/;
   align-items: center;
   justify-content: space-between;
-  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-decoration: none;
   transition: all 0.3s ease;
+  font-weight: lighter;
 
 }
 
@@ -69,6 +70,7 @@ h2 {
   color: #FF101F;
   font-size: 55px;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 .navbar-custom-title:hover {
@@ -78,8 +80,9 @@ h2 {
   color: #FF101F;
   border: 1px solid #FF101F;
   border-radius: 50px;
-/*  padding: 5px 5px;*/
   font-weight: lighter;
+/*  padding: 5px 5px;*/
+/*  font-weight: lighter;*/
 }
 
 
@@ -88,7 +91,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Work Sans', monospace;
 }
 
 .navbar-custom-item {
