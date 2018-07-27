@@ -85,13 +85,13 @@ a:hover{
 
 
 .info {
-/*  width: 50%;*/
-/*  text-align: center;*/
-/*  background:yellow;*/
-/*  font-family: Raleway;*/
-/*  font-size: 20px;*/
-/*  padding-top: 50px;*/
-/*  float: left;*/
+  width: 50%;
+  text-align: center;
+  background:yellow;
+  font-family: Raleway;
+  font-size: 20px;
+  padding-top: 50px;
+  float: left;
 
 
 }
@@ -122,6 +122,7 @@ a:hover{
 /*  margin-left:10px;*/
   margin-top: 20px;
   padding-top: 40px;
+  top: 42vh;
 
 
 }
@@ -144,15 +145,43 @@ a:hover{
   position: absolute;
   text-align:left;
   font-family: Work Sans;
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 20px;
   padding-top: 40px;
   width: 40%;
   right: 68px;
 }
 
+.right a {
+
+}
+
+.cv {
+/*  position: absolute;
+  text-align:left;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 40px;
+  width: 40%;
+  right: 68px;*/
 
 
+}
+
+/*.right h1 {
+  position: absolute;
+  text-align:left;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 40px;
+  width: 40%;
+  right: 68px;
+
+
+
+}*/
 /*.description {
   border: 1px red solid;
 }
@@ -336,7 +365,7 @@ opacity: 7;
 .seventhleft img {
   z-index: 10;
   position: absolute;
-/*  right: 16px;*/
+  right: 14px;
   width: 51%;
   top: 360vh;
 
@@ -640,9 +669,13 @@ h4{
 }*/
 
 
-h1 a {
+h1 {
   color: black;
   position: absolute;
+  font-family: Work Sans;
+  font-size: 20px;
+  left: 119vh;
+  top: 5vh;
 
 }
 

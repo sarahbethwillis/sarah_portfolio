@@ -1,26 +1,25 @@
 .footer {
   text-align: center;
+/*  width: 10%;*/
 
 
+}
+
+
+.footer a {
 
 
 
 }
 
 
-/*.footer a {
-
-
-
-
-
-}*/
-
-
 .footer img {
   width: 10%;
 
-
+/*  position: absolute;
+  left: 69vh;
+  top: 87vh;
+*/
 
 }
 
