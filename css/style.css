@@ -459,6 +459,42 @@ opacity: 7;
 
 
 
+#graphic {
+  z-index: 2;
+  position: absolute;
+  left: 52px;
+  width: 100%;
+  top: 620vh;
+  height: 100vh;
+  font-family: Anonymous Pro;
+  letter-spacing:10px;
+  font-size:11vw;
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+  text-decoration:none;
+  display: inline-block;
+
+
+}
+
+
+#web {
+  z-index: 2;
+  position: absolute;
+  left: 52px;
+  width: 100%;
+  top: 715vh;
+  height: 100vh;
+  font-family: Anonymous Pro;
+  letter-spacing:10px;
+  font-size:11vw;
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+  text-decoration:none;
+  display: inline-block;
+
+
+}
 
 ul {
   list-style-type: none;
